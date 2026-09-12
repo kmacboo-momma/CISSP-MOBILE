@@ -1,0 +1,14 @@
+{
+  "name": "CISSP Study",
+  "short_name": "CISSP",
+  "description": "Personal CISSP exam prep — flashcards and quizzes by domain.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F1729",
+  "theme_color": "#0F1729",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
