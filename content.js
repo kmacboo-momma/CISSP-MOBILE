@@ -20,6 +20,10 @@
 //   - Keep adding items to FLASHCARDS and QUIZ arrays. That's it.
 // ============================================================================
 
+// (Wrapped in a function so re-loading this file can never cause
+//  "X has already been declared" errors — everything is scoped inside.)
+(function () {
+
 const DOMAINS = [
   { id: 1, name: "Security & Risk Management", weight: 16, short: "Risk Mgmt" },
   { id: 2, name: "Asset Security", weight: 10, short: "Asset Sec" },
@@ -131,3 +135,5 @@ const QUIZ = [
 
 // Expose to the app (do not edit below this line)
 window.CISSP_DATA = { DOMAINS, FLASHCARDS, QUIZ };
+
+})();
